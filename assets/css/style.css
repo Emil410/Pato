@@ -26,7 +26,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
     height: 95px;
+    z-index: 1001;
+    border-top: 5px solid #ec1d25;
 }
 
 header .container {
@@ -46,7 +52,7 @@ header ul {
 }
 
 header a {
-    color: black;
+    color: white;
     transition: 0.3s;
 }
 
@@ -69,10 +75,88 @@ header .icons {
     color: red;
 }
 
+.food_cost {
+    margin-top: 120px;
+    padding-bottom: 90px;
+}
+
+.img_roll {
+    width: 26%;
+    overflow: hidden;
+    border-radius: 9px;
+    height: 115px;
+}
+
+.img_roll:hover img {
+    transform: scale(1.1);
+}
+
+.flex_roll {
+    display: flex;
+    gap: 28px;
+}
+
+.text_roll {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text_roll a {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    transition: 0.3s;
+}
+
+.text_roll a:hover {
+    color: #ec1d25;
+}
+
+.column_roll {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.food_cost .container {
+    display: flex;
+}
+
+.text_roll p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.7;
+}
+
+.text_roll span {
+    display: inline-block;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 22px;
+    color: #333333;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+
+.img_roll img {
+    width: 100%;
+    border-radius: 9px;
+    transition: .5s;
+}
+
 aside {
     position: fixed;
     z-index: 1200;
-    width: 390px;
+    width: 350px;
     height: 100%;
     overflow: auto;
     background-color: white;
@@ -103,7 +187,7 @@ aside a:hover {
 .reservation_button {
     width: 150px;
     height: 40px;
-    margin-left: 120px;
+    margin-left: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -139,14 +223,15 @@ aside a:hover {
 .little_boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding-bottom: 40px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 40px;
+    padding-left: 40px;
     margin-top: 25px;
 }
 
 .little_box {
-    width: 29%;
+    width: 22%;
     margin: 5px;
     transition: 0.4s;
     position: relative;
@@ -171,20 +256,26 @@ aside a:hover {
     background-color: rgba(0, 0, 0, 0.65);
 }
 
+.black_color {
+    color: black;
+}
+
+.white_color {
+    color: white;
+}
+
 footer {
     background-color: #222222;
     height: 490px;
-    margin-top: 301px;
 }
 
 .box {
     padding-top: 40px;
     display: flex;
-    gap: 30px;
 }
 
 .boxes {
-    width: 30%;
+    width: 40%;
     padding-top: 50px;
     padding-right: 15px;
     padding-left: 15px;
@@ -305,5 +396,35 @@ footer span {
     }
     footer {
         height: 80%;
+    }
+    .food_cost .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_roll {
+        width: 21%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        max-width: 500px;
+    }
+    .img_roll {
+        width: 30%;
+    }
+    .flex_roll {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container {
+        max-width: 320px;
+    }
+    .img_roll {
+        width: 46%;
     }
 }
