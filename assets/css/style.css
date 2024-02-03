@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    list-style:none;
+}
+
+body, html {
+	height: 100%;
+	font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.container {
+	max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-welcome{
+    padding-top: 200px;
+    padding-bottom: 105px;
+    background-repeat: repeat;
+}
+.itl_rest{
+    font-family: Courgette;
+    font-size: 30px;
+    line-height: 1.2;
+    color: red;
+    text-align: center;
+}
+.itl_welcome{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: black;
+    letter-spacing: 6px;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    text-align: center;
+}
+.itl_donec_text{
+    text-align: center;
+    margin-bottom: 22px;
+    max-width: 513px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerwelcome{
+    text-align: center;
+}
+.ptpb {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.imgpb {
+    flex: 1;
+}
+
+.img_welcome {
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 150px;
+}
+
+.img_welcome img {
+    width: 100%;
+    transition: transform 0.3s ease; 
+    height: auto;
+    vertical-align: middle;
+}
+
+.img_welcome img:hover {
+    transform: scale(1.1); 
+}
