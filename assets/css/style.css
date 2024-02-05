@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500;700&family=Roboto:wght@300&display=swap'); 
+
+
+
+*{margin:0;
+padding:0;
+list-style:none;
+text-decoration:none;
+box-sizing:border;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+#reservation_img {
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-02.jpg.webp");
+    /* height: 545px; */
+    /* width: 100%; */
+    /* min-height: 545px; */
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    /* background-repeat: no-repeat; */
+    background-position: center ;
+    background-size: cover;
+    height: 180px;
+}
+
+#h2class_r{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+.flex-c-m {
+    /* display: -webkit-box; */
+    /* display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox; */
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.p-r-15 {
+    padding-right: 15px;
+}
+.p-l-15 {
+    padding-left: 15px;
+}
+.p-b-80 {
+    padding-bottom: 80px;
+}
+.p-t-160 {
+    padding-top: 160px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+section {
+    display: block;
+}
+
+
+.Booktable{
+    background-image: url("https://preview.colorlib.com/theme/pato/images/icons/pattern1.png.webp");
+    height: 886px;
+}
+#text{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #d61c22;
+    padding-top: 60px;
+    font-family: 'Courgette', sans-serif;
+    font-weight: 100;
+}
+#booktabble{
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-family: 'Poppins',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500;700&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.reservation_section .container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.reservation_section {
+    height: 700px;
+    margin: 0 auto;
+    background-image: url("https://preview.colorlib.com/theme/pato/images/icons/pattern1.png.webp");
+}
+
+.reservation_section h3 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    font-weight: 100;
+}
+
+.reservation_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+
+.inputs {
+    padding-top: 70px;
+    display: flex;
+}
+
+.reservation_section input {
+    width: 265px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: 2px solid #d9d9d9;
+}
+
+.reservation_section .time {
+    width: 265px;
+    height: 50px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+}
+
+.reservation_section .person {
+    width: 265px;
+    height: 50px;
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+}
+
+.reservation_section .row {
+    display: flex;
+    gap: 25px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+
+.reservation_section .container {
+    margin: 0 auto;
+}
+
+.reservation_section .one_div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+select {
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    display: flex;
+    height: 25px;
+    font-size: 15px;
+    color: #222222;
+    text-overflow: ellipsis;
+}
+.reservation_section button {
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 0;
+    margin-left: 240px;
+    background-color: #111111;    
+}
+.reservation_section button:hover {
+    background-color: #d61c22;
+    transition: 0.5s;
+}
+.margin {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding-top: 30px;
+    padding-right: 230px;
+}
+.reservation_section .asagi {
+    text-align: left;
+}
+.reservation_section p {
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+}
+.reservation_section h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.asagidivler{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
