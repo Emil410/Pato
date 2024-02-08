@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 links[i].classList.add("black_color");
             }
         } else {
-            header.style.backgroundColor = "transparent";
+            header.style.backgroundColor = "inherit";
             logoLink.innerHTML = '<img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png.webp" class="pato_img" alt="">';
             i.style.color = "white";
             for (let i = 0; i < links.length; i++) {
