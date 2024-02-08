@@ -189,19 +189,14 @@ textarea {
     padding-top: 25px;
     margin-left: 70px;
 }
+
 @media only screen and (max-width: 768px) {
     header {
-        padding-top: 80px;
+        display: none;
     }
 
-    header .container {
-        padding-top: 80px;
-    }
-
-    header ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+    .contact_img {
+        display: none;
     }
 
     .contact_img {
@@ -229,25 +224,30 @@ textarea {
         width: 100%;
         margin-left: 20px;
     }
+
     .input_textarea {
         padding-right: 70px;
     }
+
     .info_icons {
         flex-direction: column;
         gap: 40px;
     }
-    
+
     .info_icons div {
         margin-bottom: 10px;
     }
 
-    .one_div, .two_div {
+    .one_div,
+    .two_div {
         margin-right: 0;
     }
+
     .info_icons span {
         /* text-align: center; */
         padding-right: 100px;
     }
+
     .info_icons p {
         width: 100%;
         padding-left: 0;
@@ -255,27 +255,21 @@ textarea {
         text-align: center;
     }
 }
+
 @media only screen and (max-width: 320px) {
     header {
-        padding-top: 50px;
+        display: none;
     }
 
-    header .container {
-        padding-top: 50px;
-    }
-
-    header ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    .contact_img {
+        display: none;
     }
 
     .contact_img {
         height: 200px;
+        /* width: 100%; */
     }
-    .input_textarea {
-        padding-left: 30px;
-    }
+
     .contact {
         font-size: 24px;
         padding-top: 50px;
@@ -290,35 +284,47 @@ textarea {
         font-size: 18px;
     }
 
+
     .contact_one_section input {
-        width: 100%;
+        width: 286px;
         margin-top: 20px;
     }
 
     textarea {
-        width: 100%;
+        width: 286px;
         margin-top: 10px;
-        margin-left: 15px;
     }
-    .input_textarea
-    .info_icons {
+
+    .input_textarea {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* .input_textarea .info_icons {
         display: flex;
         flex-direction: column;
         gap: 20px;
+    } */
+
+
+    .info_icons span {
+        /* font-size: 9px; */
+        text-align: left;
     }
 
-    .info_icons div {
-        margin-bottom: 5px;
-    }
-    
-    .one_div, .two_div {
-        margin-right: 0;
+    .info_icons i {
+        /* font-size: 9px; */
+        /* text-align: left; */
     }
 
     .info_icons p {
         width: 100%;
-        padding-left: 0;
-        margin-left: 0;
-        text-align: center;
+        text-align: left;
+    }
+
+    .divs {
+        text-align: left;
+        width: 100%;
     }
 }
