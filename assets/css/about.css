@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500;700&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    padding-top: 120px;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    z-index: 100;
+}
+
+.pato_img {
+    width: 110px;
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    gap: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: red;
+    transition: 0.5;
+}
+
+header a {
+    color: white;
+}
+
+header .icons {
+    display: flex;
+    gap: 25px;
+    color: white;
+}
+
+.about_us_img {
+    background-image: url("../imgs/bg-title-page-03.jpg\ \(1\).webp");
+    background-size: cover;
+    background-position: center;
+    height: 545px;
+}
+
+.about_us {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 283px;
+}
+
+.about_section h3 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    font-weight: 100;
+}
+
+.about_section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    padding-top: 40px;
+}
+
+.about_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+
+.about_section {
+    margin-top: 100px;
+}
+
+.about_section .container {
+    text-align: center;
+}
+
+.discover_our_video {
+    background-attachment: fixed;
+    margin-top: 100px;
+    height: 720px;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url("../imgs/header-menu-01.jpg.webp");
+}
+
+.discover {
+    width: 70px;
+    height: 70px;
+    background-color: aliceblue;
+    /* margin: 0 auto;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #222222;
+}
+
+.discover:hover {
+    background-color: #d61c229a;
+    transition: 0.5s;
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+
+.discover_our_video .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+}
+
+.right_img {
+    width: 390px;
+    height: 390px;
+    border-radius: 10px;
+}
+
+.four_section {
+    padding-top: 100px;
+}
+
+.four_section h3 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    font-weight: 100;
+}
+
+.four_section {
+    height: 650px;
+    background-image: url("../imgs/pattern1.png\ \(1\).webp");
+}
+
+.four_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+
+.four_section p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    width: 450px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.romantic_restaurant {
+    padding-top: 50px;
+}
+
+.four_section .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.six_img_section {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../imgs/bg-cover-video-02.jpg.webp");
+}
+
+.seven_section {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.seven_section h3 {
+    font-family: 'Courgette', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    color: #d61c22;
+    font-weight: 100;
+}
+
+.seven_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: #222222;
+    letter-spacing: 6px;
+    padding-top: 10px;
+}
+
+.card {
+    width: 370px;
+    height: 320px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 2px solid #e6e6e6;
+    /* position: absolute; */
+    /* padding-top: 150px; */
+}
+
+.card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px;
+}
+
+.card span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.8;
+}
+
+.card p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0 auto;
+    width: 300px;
+    padding-top: 15px;
+}
+
+.card_img {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    /* position: relative; */
+    vertical-align: middle;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.son_section {
+    height: 200px;
+    margin-top: 100px;
+    background-image: url("../imgs/pattern1.png\ \(1\).webp");
+}
+
+.son_section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 3px;
+}
+
+.son_section input {
+    padding-left: 15px;
+    width: 266px;
+    height: 46px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    border: 2px solid #a19898;
+}
+
+.son_section button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111111;
+    border: 0;
+}
+
+.son_section button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111111;
+    border: 0;
+    font-weight: 00;
+    color: white;
+}
+
+.son_section button:hover {
+    background-color: #a13434;
+    color: #e6e6e6;
+}
+
+.son_divs {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .about_us_img {
+        display: none;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .right_img {
+        width: 354px;
+        height: 354px;
+    }
+
+    .four_section .container {
+        display: flex;
+        gap: 30px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+    }
+
+    .card {
+        width: 482px;
+        height: 380px;
+    }
+
+    .romantic_restaurant h2 {
+        font-size: 40px;
+    }
+
+    .romantic_restaurant p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .four_section img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .delicious_repices h2 {
+        font-size: 40px;
+    }
+
+    .delicious_repices p {
+        font-size: 10px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .four_section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards p {
+        width: 100%;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+    }
+
+    .son_divs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .son_divs {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .son_divs h3 {
+        font-size: 18px;
+    }
+
+    .son_divs input {
+        width: 200px;
+    }
+
+    .son_divs button {
+        width: 100px;
+    }
+
+    .six_img_section {
+        margin-top: 100px;
+    }
+
+    .romantic_restaurant h2 {
+        font-size: 30px;
+    }
+
+    .romantic_restaurant p {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .four_section img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .delicious_repices h2 {
+        font-size: 40px;
+    }
+
+    .delicious_repices p {
+        font-size: 10px;
+        width: 100%;
+    }
+}

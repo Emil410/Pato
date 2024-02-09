@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Courgette&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Montserrat:wght@300;400&family=Poppins:wght@100;200;500;700&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    position: fixed;
+    padding-top: 120px;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    z-index: 100;
+}
+
+.pato_img {
+    width: 110px;
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    gap: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header a:hover {
+    color: red;
+    transition: 0.5;
+}
+
+header a {
+    color: white;
+}
+
+header .icons {
+    display: flex;
+    gap: 25px;
+    color: white;
+}
+
+.contact_img {
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-02.jpg.webp");
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; */
+    height: 545px;
+}
+
+.contact {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 283px;
+}
+
+.contact_one_section {
+    height: 1000px;
+    background-image: url("https://preview.colorlib.com/theme/pato/images/icons/pattern1.png.webp");
+}
+
+.contact_one_section h3 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #222222;
+    letter-spacing: 3px;
+}
+
+.contact_one_section .container {
+    text-align: center;
+}
+
+.contact_one_section input {
+    width: 265px;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin: 17px;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #d9d9d9;
+    font-weight: 500;
+    color: #555555;
+}
+
+textarea {
+    width: 872px;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: 35px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 2px solid #d9d9d9;
+    color: #555555
+}
+
+.input_textarea {
+    margin-top: 80px;
+}
+
+.contact_one_section button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: white;
+    background: #111111;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.contact_one_section button:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+.info_icons {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.info_icons div {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333333;
+    letter-spacing: 3px;
+}
+
+.info_icons i {
+    padding: 30px;
+}
+
+.one_div {
+    margin-right: 70px;
+}
+
+.two_div {
+    margin-right: 110px;
+}
+
+.info_icons p {
+    width: 290px;
+    text-align: start;
+    padding-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.7;
+    padding-top: 25px;
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: none;
+    }
+
+    .contact_img {
+        display: none;
+    }
+
+    .contact_img {
+        height: 300px;
+    }
+
+    .contact {
+        font-size: 30px;
+        padding-top: 100px;
+    }
+
+    .contact_one_section {
+        height: auto;
+    }
+
+    .contact_one_section h3 {
+        padding-top: 50px;
+    }
+
+    .contact_one_section input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .input_textarea {
+        padding-right: 70px;
+    }
+
+    .info_icons {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .info_icons div {
+        margin-bottom: 10px;
+    }
+
+    .one_div,
+    .two_div {
+        margin-right: 0;
+    }
+
+    .info_icons span {
+        /* text-align: center; */
+        padding-right: 100px;
+    }
+
+    .info_icons p {
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        display: none;
+    }
+
+    .contact_img {
+        display: none;
+    }
+
+    .contact_img {
+        height: 200px;
+        /* width: 100%; */
+    }
+
+    .contact {
+        font-size: 24px;
+        padding-top: 50px;
+    }
+
+    .contact_one_section {
+        height: auto;
+    }
+
+    .contact_one_section h3 {
+        padding-top: 30px;
+        font-size: 18px;
+    }
+
+
+    .contact_one_section input {
+        width: 286px;
+        margin-top: 20px;
+    }
+
+    textarea {
+        width: 286px;
+        margin-top: 10px;
+    }
+
+    .input_textarea {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* .input_textarea .info_icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    } */
+
+
+    .info_icons span {
+        /* font-size: 9px; */
+        text-align: left;
+    }
+
+    .info_icons i {
+        /* font-size: 9px; */
+        /* text-align: left; */
+    }
+
+    .info_icons p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .divs {
+        text-align: left;
+        width: 100%;
+    }
+}
