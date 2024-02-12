@@ -185,7 +185,7 @@ header .icons {
         text-align: center;
         margin: 0 auto;
     }
-    
+
     .section_words a {
         display: flex;
         font-family: 'Poppins', sans-serif;
@@ -197,6 +197,7 @@ header .icons {
         letter-spacing: 2px;
         padding-top: 45px;
     }
+
     .section_words span {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
@@ -204,6 +205,7 @@ header .icons {
         color: #666666;
         line-height: 1.7;
     }
+
     .section_words h3 {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;

@@ -133,21 +133,22 @@ header .icons {
 .line_two {
     width: 246px;
     height: 46px;
-    border-left: 0;
-    border-right: 0;
+    border-bottom: 1px solid #e6e6e6;
+
 }
 
 .line_three {
     width: 246px;
     height: 46px;
-    border-left: 0;
-    border-right: 0;
-    border: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+
 }
 
 .line_four {
     width: 246px;
     height: 46px;
+    border-bottom: 1px solid #e6e6e6;
+
 }
 
 .line_five {
@@ -155,7 +156,7 @@ header .icons {
     height: 46px;
     /* border-left:0 ;
     border-right:0 ; */
-    border: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 .line_words {
@@ -369,7 +370,10 @@ header .icons {
     padding-left: 15px;
     color: #222222;
 }
-
+/* .rdftghj {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+} */
 .twoth_imgs {
     padding-top: 30px;
 }
