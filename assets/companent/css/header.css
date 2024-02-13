@@ -109,6 +109,10 @@ aside a:hover {
     transition: 0.4s;
 }
 
+.black_color {
+    color: black;
+}
+
 .reservation_button:hover {
     background-color: red;
     color: white;
