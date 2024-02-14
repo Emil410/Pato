@@ -393,7 +393,7 @@ header .icons {
 @media only screen and (max-width: 768px) {
     .responsiv img {
         width: 372px;
-        height: 166px;
+        height: 200px;
     }
 
     .left_div_words a {
