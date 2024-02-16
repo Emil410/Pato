@@ -69,7 +69,7 @@ header .icons {
     height: 545px;
 }
 
-.blog {
+.blog_img h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
     color: white;
@@ -77,8 +77,20 @@ header .icons {
     line-height: 1.2;
     color: white;
     letter-spacing: 6px;
-    text-align: center;
-    padding-top: 283px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 80px;
+}
+
+/* .img_down_words {
+    display: flex;
+    align-items: flex-start;
+} */
+
+section .container {
+    height: 100%;
 }
 
 .right_words {
@@ -123,7 +135,7 @@ header .icons {
 
 .line {
     width: 246px;
-    height: 46px;
+    height: 40px;
     border: 1px solid #e6e6e6;
     margin-top: 35px;
     border-left: 0;
@@ -132,38 +144,40 @@ header .icons {
 
 .line_two {
     width: 246px;
-    height: 46px;
+    height: 40px;
     border-bottom: 1px solid #e6e6e6;
-
 }
 
 .line_three {
     width: 246px;
-    height: 46px;
+    height: 40px;
     border-bottom: 1px solid #e6e6e6;
-
 }
 
 .line_four {
     width: 246px;
-    height: 46px;
+    height: 40px;
     border-bottom: 1px solid #e6e6e6;
-
 }
 
 .line_five {
     width: 246px;
-    height: 46px;
+    height: 40px;
     /* border-left:0 ;
     border-right:0 ; */
     border-bottom: 1px solid #e6e6e6;
 }
 
 .line_words {
-    padding-top: 14px;
+    padding-top: 11px;
 }
 
-.line a {
+.line_words a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.right_words a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -172,7 +186,7 @@ header .icons {
     letter-spacing: 1px
 }
 
-.line_two a {
+.right_words a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -181,7 +195,7 @@ header .icons {
     letter-spacing: 1px
 }
 
-.line_three a {
+.right_words a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -190,7 +204,7 @@ header .icons {
     letter-spacing: 1px
 }
 
-.line_four a {
+.right_words a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -199,7 +213,7 @@ header .icons {
     letter-spacing: 1px
 }
 
-.line_five a {
+.right_words a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 12px;
@@ -209,7 +223,7 @@ header .icons {
 }
 
 .most_popular_div {
-    margin-top: 50px;
+    margin-top: 55px;
 }
 
 .most_popular_div h3 {
@@ -241,6 +255,13 @@ header .icons {
 .img_words h4 {
     padding-top: 26px;
     padding-left: 15px;
+}
+
+.red_card_img {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    position: relative;
 }
 
 .words {
@@ -370,6 +391,7 @@ header .icons {
     padding-left: 15px;
     color: #222222;
 }
+
 /* .rdftghj {
     border-bottom: 1px solid #e6e6e6;
     padding-bottom: 20px;
